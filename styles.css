@@ -1,0 +1,70 @@
+/* CSS Halaman Utama (HOME) */
+body{
+    background-color: rgb(16, 218, 221);
+    background-size: cover;
+    background-image: url('Laut.jpg');
+}
+
+h1{
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    display: inline-flex;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(16, 218, 221);
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgb(5, 83, 239);
+}
+
+.nav1{
+    text-align: right;
+    padding: 10px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 104, 3);
+}
+
+.kotak{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(0, 251, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 60%;
+    top: 50%;
+    height: auto;
+    margin: auto;
+    border-radius: 25px;
+    border: 2px solid rgb(16, 218, 221);
+    box-shadow: 5px 5px 25px rgb(5, 83, 239);
+    backdrop-filter: blur(5px);
+    padding-bottom: 10px;
+}
+
+h2{
+    font-size: 28px;
+    box-shadow: 5px 5px 25px rgb(5, 83, 239);
+}
+
+button{
+    border: 2px solid rgb(16, 218, 221);
+    background-color: rgb(255, 104, 3);
+    box-shadow: 5px 5px 25px rgb(5, 83, 239);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* CSS Bagian Jadwal  */
+.tabel{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid rgb(16, 218, 221);
+    box-shadow: 5px 5px 25px rgb(5, 83, 239);
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    color: rgb(255, 255, 255);
+}
